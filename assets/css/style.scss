@@ -3,35 +3,29 @@
 
 @import "minimal-light";
 
-.project-list {
-  margin: 2px 0 22px;
+#projects + ul {
+  margin-top: 0;
 }
 
-.project-item {
-  border-left: 3px solid #002D72;
-  margin: 0 0 16px;
-  padding: 0 0 0 12px;
+#projects + ul li {
+  margin-bottom: 10px;
 }
 
 .project-title {
-  color: #002D72;
-  font-size: 1.1rem;
-  font-weight: 700;
-  line-height: 1.22;
-  margin: 0 0 1px;
+  color: #043361;
+  font-size: 1.05rem;
+  font-weight: 600;
+  line-height: 1.1;
 }
 
 .project-summary {
+  display: inline-block;
   line-height: 1.5;
-  margin: 0;
+  margin-top: 0;
 }
 
 @media (prefers-color-scheme: dark) {
-  .project-item {
-    border-left-color: #58a6d6;
-  }
-
   .project-title {
-    color: #8bc7f0;
+    color: rgb(62, 183, 240);
   }
 }
