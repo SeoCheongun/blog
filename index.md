@@ -33,4 +33,4 @@ Developed an end-to-end automated pipeline for gamma-ray imaging calibration by 
 
 ## Study Notes
 
-- 준비 중입니다.
+- Coming soon...
