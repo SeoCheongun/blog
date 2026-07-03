@@ -2,3 +2,36 @@
 ---
 
 @import "minimal-light";
+
+.project-list {
+  margin: 4px 0 22px;
+}
+
+.project-item {
+  border-left: 3px solid #2f6fb0;
+  margin: 0 0 18px;
+  padding: 1px 0 1px 14px;
+}
+
+.project-title {
+  color: #174a7c;
+  font-size: 1.08rem;
+  font-weight: 700;
+  line-height: 1.35;
+  margin: 0 0 6px;
+}
+
+.project-summary {
+  line-height: 1.62;
+  margin: 0;
+}
+
+@media (prefers-color-scheme: dark) {
+  .project-item {
+    border-left-color: #58a6d6;
+  }
+
+  .project-title {
+    color: #8bc7f0;
+  }
+}
