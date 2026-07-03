@@ -22,16 +22,16 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
     {% if site.font == "Sans Serif" %}
-    <link rel="stylesheet" href="./assets/css/font_sans_serif.css">
+    <link rel="stylesheet" href="./assets/css/font_sans_serif.css?v=20260704">
     {% else %}
-    <link rel="stylesheet" href="./assets/css/font.css">
+    <link rel="stylesheet" href="./assets/css/font.css?v=20260704">
     {% endif %}
     {% if site.auto_dark_mode %}
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/publications.css">
+    <link rel="stylesheet" href="./assets/css/style.css?v=20260704">
+    <link rel="stylesheet" href="./assets/css/publications.css?v=20260704">
     {% else %}
-    <link rel="stylesheet" href="./assets/css/style-no-dark-mode.css">
-    <link rel="stylesheet" href="./assets/css/publications-no-dark-mode.css">
+    <link rel="stylesheet" href="./assets/css/style-no-dark-mode.css?v=20260704">
+    <link rel="stylesheet" href="./assets/css/publications-no-dark-mode.css?v=20260704">
     {% endif %}
 
   </head>
@@ -46,7 +46,7 @@
         <h1>{{ site.title }}</h1>
 
         {% if site.position %}
-        <position style="font-size:1.10rem;">{{ site.position }}{% if site.position_link %} <a href="{{ site.position_link }}" rel="noopener">{{ site.position_link_text }}</a>{% endif %}</position>
+        <position style="font-size:1.10rem;">{{ site.position }}{% if site.position_link %} <a href="{{ site.position_link }}" target="_blank" rel="noopener">{{ site.position_link_text }}</a>{% endif %}</position>
         <br>
         {% endif %}
         {% if site.affiliation %}
