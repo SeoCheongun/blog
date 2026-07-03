@@ -4,13 +4,20 @@ layout: homepage
 
 ## About Me
 
-안녕하세요. 개발과 기록을 위한 개인 블로그입니다.
+I am an undergraduate student at Korea University, majoring in Biomedical Engineering and Electrical Engineering. I am currently an undergraduate researcher at MIPL, where I work on medical imaging, gamma-camera data processing, and AI-based approaches for imaging and signal analysis.
+
+My academic background combines biomedical engineering, electrical engineering, signal processing, and machine learning. I am interested in medical AI, inverse problems, and generative models, especially in applications involving scientific and biomedical data.
+
+Through my research experience and personal projects, I aim to develop a deeper understanding of how AI methods can be connected with real measurement systems and domain-specific data.
 
 ## Interests
 
-- **Development:** web, tools, automation
-- **Writing:** learning notes, project logs, ideas
-- **Portfolio:** projects and experiments
+- Signal Processing
+- Inverse Problems
+- Generative Models
+- Scientific and Biomedical Data
+- Medical AI
+- Medical Imaging
 
 ## News
 
