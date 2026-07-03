@@ -5,13 +5,13 @@ affiliation: School of Biomedical Engineering<br>Korea University<br>Seoul, Sout
 affiliation_link: https://www.korea.edu/
 email: scw0922 (at) gmail.com<br>chung0922 (at) korea.ac.kr
 url: https://seocheongun.github.io
-baseurl: /blog
+baseurl: ""
 
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
 keywords: Cheongun SEO, Korea University, researcher, blog, portfolio
 description: Cheongun SEO's personal homepage.
-canonical: https://seocheongun.github.io/blog/
+canonical: https://seocheongun.github.io/
 
 # Links 
 # If you don't need one of them, you may delete the corresponding line.
