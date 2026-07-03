@@ -10,6 +10,8 @@ My academic background combines biomedical engineering, electrical engineering, 
 
 Through my research experience and personal projects, I aim to develop a deeper understanding of how AI methods can be connected with real measurement systems and domain-specific data.
 
+I use this site to organize my research experience, projects, and study notes.
+
 ## Interests
 
 - Signal Processing
