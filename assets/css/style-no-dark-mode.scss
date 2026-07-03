@@ -8,18 +8,21 @@
 }
 
 #projects + ul li {
-  margin-bottom: 10px;
+  line-height: 1.45;
+  margin-bottom: 14px;
 }
 
 .project-title {
+  display: block;
   color: #043361;
-  font-size: 1.05rem;
-  font-weight: 600;
-  line-height: 1.1;
+  font-size: 1.22rem;
+  font-weight: 700;
+  line-height: 1.25;
+  margin: 0;
 }
 
 .project-summary {
-  display: inline-block;
-  line-height: 1.5;
-  margin-top: 0;
+  display: block;
+  line-height: 1.45;
+  margin: 0;
 }
