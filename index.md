@@ -23,7 +23,7 @@ I use this site to organize my research experience, projects, and study notes.
 
 ## News
 
-- **[Jul. 2026]** GitHub Pages 기반 개인 사이트를 시작했습니다.
+- **[Jul 2026]** Launched this personal portfolio website.
 
 ## Projects
 
