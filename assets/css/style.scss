@@ -4,25 +4,25 @@
 @import "minimal-light";
 
 .project-list {
-  margin: 4px 0 22px;
+  margin: 2px 0 22px;
 }
 
 .project-item {
-  border-left: 3px solid #2f6fb0;
-  margin: 0 0 18px;
-  padding: 1px 0 1px 14px;
+  border-left: 3px solid #002D72;
+  margin: 0 0 16px;
+  padding: 0 0 0 12px;
 }
 
 .project-title {
-  color: #174a7c;
-  font-size: 1.08rem;
+  color: #002D72;
+  font-size: 1.1rem;
   font-weight: 700;
-  line-height: 1.35;
-  margin: 0 0 6px;
+  line-height: 1.22;
+  margin: 0 0 1px;
 }
 
 .project-summary {
-  line-height: 1.62;
+  line-height: 1.5;
   margin: 0;
 }
 
