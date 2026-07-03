@@ -25,6 +25,6 @@ I use this site to organize my research experience, projects, and study notes.
 
 - **[Jul 2026]** Launched this personal portfolio website.
 
-## Projects
+## Study Notes
 
 - 준비 중입니다.
