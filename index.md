@@ -28,6 +28,7 @@ I use this site to organize my research experience, projects, and study notes.
 ## Projects
 
 - <span class="project-title">Development of an Automated Pipeline to Generate Segmentation Maps for Gamma Camera Calibration Using Deep Learning</span><span class="project-summary">Developed an end-to-end automated pipeline for gamma-ray imaging calibration by integrating a U-Net-based peak detection model with a self- and cross-attention-based point set registration algorithm. The system automates the generation of segmentation maps, reducing calibration time from approximately 5 minutes of manual work to under 10 seconds while improving the efficiency and consistency of the gamma camera calibration process.</span>
+- <span class="project-title">Generative Model-Based Background Signal Separation for Gamma Detectors and Radioisotope Identification</span><span class="project-summary"><em>In progress.</em></span>
 
 ## Study Notes
 
