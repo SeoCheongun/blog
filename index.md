@@ -31,4 +31,24 @@ I use this site to organize my research experience, projects, and study notes.
 
 ## Study Notes
 
-- Coming soon...
+<div class="publications study-notes">
+<ol class="bibliography">
+<li>
+<div class="pub-row">
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    <a href="https://velog.io/@schnwn/DDPM" target="_blank" rel="noopener">
+      <img src="./assets/img/study-note-ddpm.png" class="teaser img-fluid z-depth-1" alt="DDPM study note teaser">
+    </a>
+  </div>
+  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+    <div class="title"><a href="https://velog.io/@schnwn/DDPM" target="_blank" rel="noopener">[Paper Review] Denoising Diffusion Probabilistic Model (2020) and Generative Models</a></div>
+    <div class="author">Study note on diffusion models and generative modeling</div>
+    <div class="periodical"><em>Velog, Jul 2026.</em></div>
+    <div class="links">
+      <a href="https://velog.io/@schnwn/DDPM" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener" style="font-size:12px;">Read</a>
+    </div>
+  </div>
+</div>
+</li>
+</ol>
+</div>
