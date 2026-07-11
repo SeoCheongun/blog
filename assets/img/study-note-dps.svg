@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <rect width="1200" height="800" fill="#ffffff"/>
+
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#000000" flood-opacity="0.08"/>
+    </filter>
+    <marker id="arrow-black" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0,0 L12,6 L0,12 z" fill="#111111"/>
+    </marker>
+    <marker id="arrow-blue" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0,0 L12,6 L0,12 z" fill="#2c4cff"/>
+    </marker>
+  </defs>
+
+  <g filter="url(#shadow)">
+    <circle cx="600" cy="145" r="98" fill="#fff4f4" stroke="#ff3b30" stroke-width="8"/>
+    <circle cx="260" cy="455" r="98" fill="#f5f6ff" stroke="#3448ff" stroke-width="8"/>
+    <circle cx="940" cy="455" r="98" fill="#fff4f4" stroke="#ff3b30" stroke-width="8"/>
+  </g>
+
+  <text x="600" y="165" text-anchor="middle" font-family="Times New Roman, Georgia, serif" font-size="92" font-style="italic" font-weight="600" fill="#111111">x₀</text>
+  <text x="260" y="475" text-anchor="middle" font-family="Times New Roman, Georgia, serif" font-size="92" font-style="italic" font-weight="600" fill="#111111">y</text>
+  <text x="940" y="475" text-anchor="middle" font-family="Times New Roman, Georgia, serif" font-size="92" font-style="italic" font-weight="600" fill="#111111">x<tspan baseline-shift="sub" font-size="56">t</tspan></text>
+
+  <path d="M 520 185 C 420 240, 360 315, 295 400" fill="none" stroke="#111111" stroke-width="6" stroke-linecap="round" marker-end="url(#arrow-black)"/>
+  <path d="M 680 185 C 770 240, 835 315, 910 395" fill="none" stroke="#111111" stroke-width="6" stroke-linecap="round" marker-end="url(#arrow-black)"/>
+  <path d="M 903 390 C 820 330, 740 265, 665 190" fill="none" stroke="#2c4cff" stroke-width="6" stroke-linecap="round" stroke-dasharray="10 14" marker-end="url(#arrow-blue)"/>
+
+  <g transform="rotate(-55 370 275)">
+    <text x="370" y="275" text-anchor="middle" font-family="Times New Roman, Georgia, serif" font-size="54" font-style="italic" fill="#111111">p(y|x₀)</text>
+  </g>
+  <g transform="rotate(58 810 275)">
+    <text x="810" y="275" text-anchor="middle" font-family="Times New Roman, Georgia, serif" font-size="54" font-style="italic" fill="#111111">p(x<tspan baseline-shift="sub" font-size="34">t</tspan>|x₀)</text>
+  </g>
+  <g transform="rotate(58 690 420)">
+    <text x="690" y="420" text-anchor="middle" font-family="Times New Roman, Georgia, serif" font-size="54" font-style="italic" fill="#2c4cff">p(x₀|x<tspan baseline-shift="sub" font-size="34">t</tspan>)</text>
+  </g>
+
+  <text x="60" y="680" font-family="Times New Roman, Georgia, serif" font-size="54" font-weight="700" fill="#111111">Figure 2: Probabilistic graph.</text>
+  <text x="60" y="736" font-family="Times New Roman, Georgia, serif" font-size="54" font-weight="700" fill="#111111">Black solid line: tractable, blue dotted line: intractable in general.</text>
+</svg>

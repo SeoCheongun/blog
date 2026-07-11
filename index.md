@@ -51,5 +51,22 @@ I use this site to organize my research experience, projects, and study notes.
   </div>
 </div>
 </li>
+<li>
+<div class="pub-row">
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    <a href="https://velog.io/@schnwn/DPS" target="_blank" rel="noopener">
+      <img src="./assets/img/study-note-dps.svg" class="teaser img-fluid z-depth-1" alt="DPS study note teaser">
+    </a>
+  </div>
+  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+    <div class="title"><a href="https://velog.io/@schnwn/DPS" target="_blank" rel="noopener">[Paper Review] Diffusion Posterior Sampling for General Noisy Inverse Problems</a></div>
+    <div class="author">Study note on diffusion posterior sampling for noisy inverse problems</div>
+    <div class="periodical"><em>Velog, Jul 2026.</em></div>
+    <div class="links">
+      <a href="https://velog.io/@schnwn/DPS" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener" style="font-size:12px;">Read</a>
+    </div>
+  </div>
+</div>
+</li>
 </ol>
 </div>
